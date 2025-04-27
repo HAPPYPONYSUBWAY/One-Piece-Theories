@@ -101,3 +101,14 @@ body.dark-mode .card {
 body.dark-mode header, body.dark-mode footer {
   background: #222;
 }
+#music-toggle {
+  position: fixed;
+  bottom: 1rem;
+  right: 5rem;
+  background: var(--accent);
+  border: none;
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
