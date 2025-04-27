@@ -6,9 +6,7 @@ toggleButton.addEventListener('click', () => {
 
 // Music player
 const musicButton = document.getElementById('music-toggle');
-const audio = new Audio('binks-sake.mp3');
-audio.loop = true;
-audio.volume = 0.5;
+const audio = document.getElementById('binks-audio');
 
 musicButton.addEventListener('click', () => {
   if (audio.paused) {
